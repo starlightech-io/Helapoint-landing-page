@@ -2,7 +2,11 @@ import React from 'react';
 import { ArrowRight, Play, Wifi, Users, CreditCard } from 'lucide-react';
 import { motion } from 'motion/react';
 
-export function Hero() {
+interface HeroProps {
+  onRequestDemo: () => void;
+}
+
+export function Hero({ onRequestDemo }: HeroProps) {
   return (
     <section className="relative overflow-hidden min-h-screen flex items-center">
       {/* Glassmorphic background with gradients */}
@@ -32,7 +36,10 @@ export function Hero() {
             <a href="#testimonials" className="text-gray-700 hover:text-gray-900 transition-colors font-medium">Reviews</a>
             <a href="#faq" className="text-gray-700 hover:text-gray-900 transition-colors font-medium">FAQ</a>
           </div>
-          <button className="px-6 py-2.5 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-xl hover:shadow-lg transition-all">
+          <button 
+            onClick={onRequestDemo}
+            className="px-6 py-2.5 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-xl hover:shadow-lg transition-all"
+          >
             Request Demo
           </button>
         </div>
@@ -106,7 +113,10 @@ export function Hero() {
               transition={{ delay: 0.6, duration: 0.6 }}
               className="flex flex-col sm:flex-row gap-4"
             >
-              <button className="px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-xl hover:shadow-2xl transition-all flex items-center justify-center gap-2 font-semibold">
+              <button 
+                onClick={onRequestDemo}
+                className="px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-xl hover:shadow-2xl transition-all flex items-center justify-center gap-2 font-semibold"
+              >
                 Request a Demo
                 <ArrowRight className="w-5 h-5" />
               </button>

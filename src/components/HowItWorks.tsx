@@ -49,7 +49,7 @@ const colorClasses = {
   indigo: 'from-indigo-500 to-indigo-600'
 };
 
-export function HowItWorks() {
+export function HowItWorks({ onRequestDemo }: HowItWorksProps) {
   const [ref, isInView] = useInView({ threshold: 0.1 });
 
   return (
@@ -114,7 +114,10 @@ export function HowItWorks() {
           transition={{ delay: 1, duration: 0.6 }}
           className="text-center mt-16"
         >
-          <button className="px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all shadow-lg hover:shadow-xl">
+          <button 
+            onClick={onRequestDemo}
+            className="px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all shadow-lg hover:shadow-xl"
+          >
             Start Your Free Trial
           </button>
         </motion.div>
