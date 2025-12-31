@@ -1,13 +1,9 @@
 import React from 'react';
 import { ArrowRight, Mail, Phone } from 'lucide-react';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { useInView } from './useInView';
 
-interface FinalCTAProps {
-  onRequestDemo: () => void;
-}
-
-export function FinalCTA({ onRequestDemo }: FinalCTAProps) {
+export function FinalCTA() {
   const [ref, isInView] = useInView({ threshold: 0.1 });
 
   return (
@@ -44,10 +40,7 @@ export function FinalCTA({ onRequestDemo }: FinalCTAProps) {
             transition={{ delay: 0.4, duration: 0.6 }}
             className="flex flex-col sm:flex-row gap-4 justify-center mb-16"
           >
-            <button 
-              onClick={onRequestDemo}
-              className="px-8 py-4 bg-white text-blue-600 rounded-lg hover:bg-blue-50 transition-all shadow-lg hover:shadow-xl flex items-center justify-center gap-2"
-            >
+            <button className="px-8 py-4 bg-white text-blue-600 rounded-lg hover:bg-blue-50 transition-all shadow-lg hover:shadow-xl flex items-center justify-center gap-2">
               Request Demo
               <ArrowRight className="w-5 h-5" />
             </button>

@@ -3,10 +3,6 @@ import { Check, X } from 'lucide-react';
 import { motion } from 'motion/react';
 import { useInView } from './useInView';
 
-interface ComparisonProps {
-  onRequestDemo: () => void;
-}
-
 const features = [
   { name: 'Works Offline (True Offline-First)', helapoint: true, loyverse: false, square: false },
   { name: 'Native Customer Credit Tracking', helapoint: true, loyverse: false, square: false },
@@ -22,7 +18,7 @@ const features = [
   { name: 'Free Trial Available', helapoint: true, loyverse: true, square: true },
 ];
 
-export function Comparison({ onRequestDemo }: ComparisonProps) {
+export function Comparison() {
   const [ref, isInView] = useInView({ threshold: 0.1 });
 
   return (
@@ -131,10 +127,7 @@ export function Comparison({ onRequestDemo }: ComparisonProps) {
           transition={{ delay: 1, duration: 0.6 }}
           className="text-center mt-12"
         >
-          <button 
-            onClick={onRequestDemo}
-            className="px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all shadow-lg hover:shadow-xl"
-          >
+          <button className="px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all shadow-lg hover:shadow-xl">
             Try HelaPoint Free for 30 Days
           </button>
         </motion.div>
