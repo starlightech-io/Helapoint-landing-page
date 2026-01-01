@@ -54,8 +54,8 @@ export function ContactPage() {
               <Mail className="w-6 h-6 text-blue-600" />
             </div>
             <h3 className="font-semibold text-gray-900 mb-2">Email</h3>
-            <a href="mailto:support@helapoint.com" className="text-blue-600 hover:underline">
-              support@helapoint.com
+            <a href="mailto:contact@helapoint.com" className="text-blue-600 hover:underline">
+              contact@helapoint.com
             </a>
           </div>
 
@@ -193,7 +193,7 @@ export function ContactPage() {
           </p>
           <ol className="list-decimal list-inside text-gray-700 space-y-2 mb-4">
             <li>Use the contact form above and select "Delete My Account" or "Delete My Data"</li>
-            <li>Email us directly at <a href="mailto:privacy@helapoint.com" className="text-blue-600 hover:underline">privacy@helapoint.com</a></li>
+            <li>Email us directly at <a href="contact:contact@helapoint.com" className="text-blue-600 hover:underline">contact@helapoint.com</a></li>
             <li>Clear app data from your device settings (for local data only)</li>
           </ol>
           <p className="text-gray-700 mb-4">

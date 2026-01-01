@@ -185,7 +185,7 @@ export function PrivacyPolicy() {
               <li>Analytics and crash reporting services (anonymized data)</li>
             </ul>
             <p className="text-gray-700 leading-relaxed mt-4">
-              A current list of subprocessors can be provided on request. Contact us at <a href="mailto:privacy@helapoint.com" className="text-blue-600 hover:underline">privacy@helapoint.com</a> for details.
+              A current list of subprocessors can be provided on request. Contact us at <a href="mailto:contact@helapoint.com" className="text-blue-600 hover:underline">contact@helapoint.com</a> for details.
             </p>
           </section>
 
@@ -248,7 +248,7 @@ export function PrivacyPolicy() {
               <li><strong>Restrict/Object:</strong> Where applicable, restrict or object to certain processing</li>
             </ul>
             <p className="text-gray-700 leading-relaxed mt-4">
-              To exercise these rights or for any data-related requests, contact us at <a href="mailto:privacy@helapoint.com" className="text-blue-600 hover:underline">privacy@helapoint.com</a>. We will respond in accordance with applicable law (typically within 30 days) and may require additional information to verify your identity.
+              To exercise these rights or for any data-related requests, contact us at <a href="mailto:contact@helapoint.com" className="text-blue-600 hover:underline">contact@helapoint.com</a>. We will respond in accordance with applicable law (typically within 30 days) and may require additional information to verify your identity.
             </p>
             <p className="text-gray-700 leading-relaxed mt-4">
               Where applicable, these rights are provided in accordance with data protection laws such as GDPR and other local privacy regulations.
@@ -284,7 +284,7 @@ export function PrivacyPolicy() {
           <section className="mb-10">
             <h2 className="text-xl font-semibold text-gray-900 mb-4">12. Children's Privacy</h2>
             <p className="text-gray-700 leading-relaxed">
-              HelaPoint is a business application not intended for use by children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe we have collected information from a child under 13, please contact us immediately at <a href="mailto:privacy@helapoint.com" className="text-blue-600 hover:underline">privacy@helapoint.com</a>.
+              HelaPoint is a business application not intended for use by children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe we have collected information from a child under 13, please contact us immediately at <a href="mailto:contact@helapoint.com" className="text-blue-600 hover:underline">contact@helapoint.com</a>.
             </p>
           </section>
 
@@ -311,7 +311,7 @@ export function PrivacyPolicy() {
               If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:
             </p>
             <div className="bg-gray-50 rounded-lg p-6 text-gray-700">
-              <p className="mb-2"><strong>Email:</strong> <a href="mailto:privacy@helapoint.com" className="text-blue-600 hover:underline">privacy@helapoint.com</a></p>
+              <p className="mb-2"><strong>Email:</strong> <a href="mailto:contact@helapoint.com" className="text-blue-600 hover:underline">contact@helapoint.com</a></p>
               <p><strong>Website:</strong> <Link to="/contact" className="text-blue-600 hover:underline">https://helapoint.com/contact</Link></p>
             </div>
             <p className="text-gray-700 leading-relaxed mt-4">

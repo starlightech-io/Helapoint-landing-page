@@ -228,7 +228,7 @@ export function TermsOfService() {
           <section className="mb-10">
             <h2 className="text-xl font-semibold text-gray-900 mb-4">13. Termination</h2>
             <p className="text-gray-700 leading-relaxed mb-4">
-              You may stop using the App at any time. You may also request account deletion by contacting us at <a href="mailto:support@helapoint.com" className="text-blue-600 hover:underline">support@helapoint.com</a> or through the <Link to="/contact" className="text-blue-600 hover:underline">Contact page</Link>.
+              You may stop using the App at any time. You may also request account deletion by contacting us at <a href="mailto:contact@helapoint.com" className="text-blue-600 hover:underline">contact@helapoint.com</a> or through the <Link to="/contact" className="text-blue-600 hover:underline">Contact page</Link>.
             </p>
             <p className="text-gray-700 leading-relaxed mb-4">
               HelaPoint may suspend or terminate your access for violation of these Terms or for any lawful reason.
@@ -299,7 +299,7 @@ export function TermsOfService() {
               If you have any questions about these Terms of Service, please contact us:
             </p>
             <div className="bg-gray-50 rounded-lg p-6 text-gray-700">
-              <p className="mb-2"><strong>Email:</strong> <a href="mailto:support@helapoint.com" className="text-blue-600 hover:underline">support@helapoint.com</a></p>
+              <p className="mb-2"><strong>Email:</strong> <a href="mailto:contact@helapoint.com" className="text-blue-600 hover:underline">contact@helapoint.com</a></p>
               <p><strong>Website:</strong> <Link to="/contact" className="text-blue-600 hover:underline">https://helapoint.com/contact</Link></p>
             </div>
           </section>
